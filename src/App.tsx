@@ -1,4 +1,5 @@
 import React, { Component, SyntheticEvent } from 'react';
+import InputFields from './InputFields';
 import CertificateData from './CertificateData';
 import './App.css';
 
@@ -15,64 +16,69 @@ export interface ISSLHelperOpts {
 }
 
 interface IAppState {
-  domain_input: string;
+  domain_input: {
+    domain: string;
+  };
+  valid_domains: string[];
   options: ISSLHelperOpts;
+  submit_count: number;
 }
 
 class App extends React.Component<{}, IAppState> {
   constructor(props: any) {
     super(props);
     this.state = {
-      domain_input: "",
+      domain_input: {
+        domain: "www.google.com, www.amazon.com",
+      },
+      valid_domains: ["www.google.com", "www.amazon.com"],
       options: {
         array_name: "TAs",
         length_name: "TAs_NUM",
         guard_name: "CERTIFICATES",
       },
+      submit_count: 0,
     };
   }
 
+  private static validateDomain(domain: string): boolean {
+    const regex = /^((?:(?:(?:\w[\.\-\+]?)*)\w)+)((?:(?:(?:\w[\.\-\+]?){0,62})\w)+)\.(\w{2,6})$/;
+    return domain.length > 0 && domain.length <= 255 && !!regex.exec(domain);
+  }
+
   private onSubmit(event: SyntheticEvent) {
+    this.setState((state) => { return { submit_count: state.submit_count + 1 } });
     event.preventDefault();
+  }
+
+  private onOptionsChange(input: { [label: string]: string }) {
+    this.setState({ options: Object.assign({}, this.state.options, input) });
+  }
+
+  private onDomainChange(input: { [label: string]: string }) {
+    this.setState({
+      domain_input: input as { domain: string },
+      valid_domains: input.domain.split(",").map((s) => s.trim()).filter((d) => App.validateDomain(d)),
+    });
   }
   
   render() {
     return (
       <div className="App">
         <form onSubmit={this.onSubmit.bind(this)}>
-          <label htmlFor="domain">Domains</label>
-          <input id="domain" type="text" value={this.state.domain_input} onChange={(e) => this.setState({ domain_input: e.target.value })} />
-          <fieldset>
-            <legend>Header Customization Options</legend>
-            <label htmlFor="array_name">Name For Trust Anchor Array Varible</label>
-            <input id="array_name" type="text" value={this.state.options.array_name} onChange={(e) => this.setState({ options: { array_name: e.target.value } })}></input>
-            <br></br>
-            <label htmlFor="length_name">Name For Array Length Varible</label>
-            <input id="length_name" type="text" value={this.state.options.length_name} onChange={(e) => this.setState({ options: { length_name: e.target.value } })}></input>
-            <br></br>
-            <label htmlFor="guard_name">Name For The Header Guard (Usually Caps)</label>
-            <input id="guard_name" type="text" value={this.state.options.guard_name} onChange={(e) => this.setState({ options: { guard_name: e.target.value } })}></input>
-          </fieldset>
+          <InputFields inputs={this.state.domain_input as any} descriptions={["Domains To Include"]} onChange={this.onDomainChange.bind(this)}></InputFields>
+          <InputFields legend="Header Customization Options" inputs={this.state.options as any} descriptions={[
+            "Name For Trust Anchor Array Varible",
+            "Name For Array Length Varible",
+            "Name For The Header Guard (Usually Caps)",
+          ]} onChange={this.onOptionsChange.bind(this)}></InputFields>
           <input type="submit" value="Submit" />
         </form>
-        <p>{this.state}</p>
+        <p>{`Domains: ${this.state.valid_domains.join(", ")}`}</p>
+        <CertificateData click_index={this.state.submit_count} domains={this.state.valid_domains} options={this.state.options}></CertificateData>
       </div>
     );
   }
-
-  private static fetchHeaderForDomains(domains: string[], opts: ISSLHelperOpts): Promise<ISSLHelperOut | null> {
-    // if there aren't any domains, return an error
-    if (domains.length <= 0) return Promise.resolve(null);
-    // calculate the url parameters by adding the domain options to the header options
-    // should create ?domain=...&domain=...&array_name=... and so on
-    const urlParams = domains.map((d) => `domain=${d}`).concat(Object.entries(opts).map((o) => `${o[0]}=${o[1]}`)).join('&');
-    const url = `https://certutil.prototypical.pro/getheader?${urlParams}`;
-    // fetch the stuff from the url, returning null on error
-    return fetch(url).then((res) => res.json()).catch((err) => {
-        console.error(err);
-        return null;
-    });
-}
 }
 
 export default App;
