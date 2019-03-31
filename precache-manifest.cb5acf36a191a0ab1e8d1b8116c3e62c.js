@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/bearssl-certificate-utility/static/css/main.fd31f427.chunk.css"
   },
   {
-    "revision": "43e39a500751f63ebdf556a9c7df35a2",
+    "revision": "7532435b2cd58891d78a8edd1a7b2a61",
     "url": "/bearssl-certificate-utility/index.html"
   }
 ];
