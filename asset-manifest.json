@@ -1,13 +1,15 @@
 {
-  "main.css": "/bearssl-certificate-utility/static/css/main.fd31f427.chunk.css",
-  "main.js": "/bearssl-certificate-utility/static/js/main.bce71ac5.chunk.js",
-  "main.js.map": "/bearssl-certificate-utility/static/js/main.bce71ac5.chunk.js.map",
-  "runtime~main.js": "/bearssl-certificate-utility/static/js/runtime~main.2397abd2.js",
-  "runtime~main.js.map": "/bearssl-certificate-utility/static/js/runtime~main.2397abd2.js.map",
-  "static/js/2.bdee699b.chunk.js": "/bearssl-certificate-utility/static/js/2.bdee699b.chunk.js",
-  "static/js/2.bdee699b.chunk.js.map": "/bearssl-certificate-utility/static/js/2.bdee699b.chunk.js.map",
-  "index.html": "/bearssl-certificate-utility/index.html",
-  "precache-manifest.cb5acf36a191a0ab1e8d1b8116c3e62c.js": "/bearssl-certificate-utility/precache-manifest.cb5acf36a191a0ab1e8d1b8116c3e62c.js",
-  "service-worker.js": "/bearssl-certificate-utility/service-worker.js",
-  "static/css/main.fd31f427.chunk.css.map": "/bearssl-certificate-utility/static/css/main.fd31f427.chunk.css.map"
+  "files": {
+    "main.css": "/bearssl-certificate-utility/static/css/main.0b79f4d3.chunk.css",
+    "main.js": "/bearssl-certificate-utility/static/js/main.a64d7256.chunk.js",
+    "main.js.map": "/bearssl-certificate-utility/static/js/main.a64d7256.chunk.js.map",
+    "runtime~main.js": "/bearssl-certificate-utility/static/js/runtime~main.366cc83a.js",
+    "runtime~main.js.map": "/bearssl-certificate-utility/static/js/runtime~main.366cc83a.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/bearssl-certificate-utility/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/bearssl-certificate-utility/static/js/2.d6a534e5.chunk.js.map",
+    "index.html": "/bearssl-certificate-utility/index.html",
+    "precache-manifest.fe56fe14d81c0106b7b8640e32828b32.js": "/bearssl-certificate-utility/precache-manifest.fe56fe14d81c0106b7b8640e32828b32.js",
+    "service-worker.js": "/bearssl-certificate-utility/service-worker.js",
+    "static/css/main.0b79f4d3.chunk.css.map": "/bearssl-certificate-utility/static/css/main.0b79f4d3.chunk.css.map"
+  }
 }
