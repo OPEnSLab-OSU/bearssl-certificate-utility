@@ -58,7 +58,7 @@ export default class CertificateData extends React.Component<ICertificateProps, 
 
     render() {
         // if we need to get a new certificate
-        if (this.props.click_index != this.click_index) {
+        if (this.props.click_index !== this.click_index) {
             // update index
             this.click_index = this.props.click_index;
             // error check

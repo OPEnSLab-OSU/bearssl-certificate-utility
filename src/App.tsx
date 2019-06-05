@@ -1,4 +1,4 @@
-import React, { Component, SyntheticEvent } from 'react';
+import React, { SyntheticEvent } from 'react';
 import InputFields from './InputFields';
 import CertificateData from './CertificateData';
 import './App.css';
@@ -42,7 +42,7 @@ class App extends React.Component<{}, IAppState> {
   }
 
   private static validateDomain(domain: string): boolean {
-    const regex = /^((?:(?:(?:\w[\.\-\+]?)*)\w)+)((?:(?:(?:\w[\.\-\+]?){0,62})\w)+)\.(\w{2,6})$/;
+    const regex = /^((?:(?:(?:\w[.\-+]?)*)\w)+)((?:(?:(?:\w[.\-+]?){0,62})\w)+)\.(\w{2,6})$/;
     return domain.length > 0 && domain.length <= 255 && !!regex.exec(domain);
   }
 

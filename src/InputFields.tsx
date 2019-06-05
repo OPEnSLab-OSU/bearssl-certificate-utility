@@ -9,16 +9,12 @@ export interface IInputFieldsProps {
 
 export default class InputFields extends React.Component<IInputFieldsProps> {
 
-    constructor(props: IInputFieldsProps) {
-        super(props);
-    }
-
     private handleChange = ((event: React.ChangeEvent<HTMLInputElement>) => {
         // return an object containing the label and new value to the callback
         let obj: { [label: string]: string } = {};
         obj[event.target.id] = event.target.value;
         this.props.onChange(obj);
-    }).bind(this);
+    });
 
     render() {
         const inputElements = Object.entries(this.props.inputs).map((entry, index) => 
