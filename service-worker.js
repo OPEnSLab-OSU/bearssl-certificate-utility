@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bearssl-certificate-utility/precache-manifest.fe56fe14d81c0106b7b8640e32828b32.js"
+  "/bearssl-certificate-utility/precache-manifest.1f24ca87b5d96055ac3466ee1f89efe2.js"
 );
 
 self.addEventListener('message', (event) => {
