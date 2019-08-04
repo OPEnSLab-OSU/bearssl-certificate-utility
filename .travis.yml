@@ -4,6 +4,14 @@ node_js:
 cache: yarn
 script:
   - yarn run build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  fqdn: prototypical.pro
+  keep_history: true
+  on:
+    branch: master
 branches:
   only:
     - master

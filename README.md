@@ -1,8 +1,9 @@
+[![Build Status](https://travis-ci.org/OPEnSLab-OSU/bearssl-certificate-utility.svg?branch=master)](https://travis-ci.org/OPEnSLab-OSU/bearssl-certificate-utility)
+[![Greenkeeper badge](https://badges.greenkeeper.io/OPEnSLab-OSU/bearssl-certificate-utility.svg)](https://greenkeeper.io/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/OPEnSLab-OSU/bearssl-certificate-utility.svg)](https://greenkeeper.io/)
 
 In the project directory, you can run:
 
