@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/OPEnSLab-OSU/bearssl-certificate-utility.svg?branch=master)](https://travis-ci.org/OPEnSLab-OSU/bearssl-certificate-utility)
 [![Greenkeeper badge](https://badges.greenkeeper.io/OPEnSLab-OSU/bearssl-certificate-utility.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/OPEnSLab-OSU/bearssl-certificate-utility/badge.svg)](https://snyk.io/test/github/OPEnSLab-OSU/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
