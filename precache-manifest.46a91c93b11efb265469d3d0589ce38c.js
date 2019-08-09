@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0134f38aa55b957af987e100ae1b87a1",
+    "revision": "ad265947eb65380819cf6f0464494ca3",
     "url": "/bearssl-certificate-utility/index.html"
   },
   {
-    "revision": "860d7a72c7e942ad55e2",
+    "revision": "d6522cd92c212878fe44",
     "url": "/bearssl-certificate-utility/static/css/main.0b79f4d3.chunk.css"
   },
   {
-    "revision": "9eee67cf782a38d35aeb",
-    "url": "/bearssl-certificate-utility/static/js/2.d6a534e5.chunk.js"
+    "revision": "9c5ca2f4a5e34b4fd994",
+    "url": "/bearssl-certificate-utility/static/js/2.be491123.chunk.js"
   },
   {
-    "revision": "860d7a72c7e942ad55e2",
-    "url": "/bearssl-certificate-utility/static/js/main.4288da18.chunk.js"
+    "revision": "d6522cd92c212878fe44",
+    "url": "/bearssl-certificate-utility/static/js/main.9899ea8c.chunk.js"
   },
   {
     "revision": "869f73871ca10b65174d",
