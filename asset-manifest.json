@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bearssl-certificate-utility/static/css/main.0b79f4d3.chunk.css",
-    "main.js": "/bearssl-certificate-utility/static/js/main.77c4443b.chunk.js",
-    "main.js.map": "/bearssl-certificate-utility/static/js/main.77c4443b.chunk.js.map",
-    "runtime~main.js": "/bearssl-certificate-utility/static/js/runtime~main.527d78c8.js",
-    "runtime~main.js.map": "/bearssl-certificate-utility/static/js/runtime~main.527d78c8.js.map",
-    "static/js/2.39a88b5f.chunk.js": "/bearssl-certificate-utility/static/js/2.39a88b5f.chunk.js",
-    "static/js/2.39a88b5f.chunk.js.map": "/bearssl-certificate-utility/static/js/2.39a88b5f.chunk.js.map",
+    "main.js": "/bearssl-certificate-utility/static/js/main.fc0446f5.chunk.js",
+    "main.js.map": "/bearssl-certificate-utility/static/js/main.fc0446f5.chunk.js.map",
+    "runtime-main.js": "/bearssl-certificate-utility/static/js/runtime-main.2b80dd54.js",
+    "runtime-main.js.map": "/bearssl-certificate-utility/static/js/runtime-main.2b80dd54.js.map",
+    "static/js/2.f884c647.chunk.js": "/bearssl-certificate-utility/static/js/2.f884c647.chunk.js",
+    "static/js/2.f884c647.chunk.js.map": "/bearssl-certificate-utility/static/js/2.f884c647.chunk.js.map",
     "index.html": "/bearssl-certificate-utility/index.html",
-    "precache-manifest.4be27474a8be452abf27e4c68a5c1cdb.js": "/bearssl-certificate-utility/precache-manifest.4be27474a8be452abf27e4c68a5c1cdb.js",
+    "precache-manifest.076225d490beb1fa81da710a5a9992a4.js": "/bearssl-certificate-utility/precache-manifest.076225d490beb1fa81da710a5a9992a4.js",
     "service-worker.js": "/bearssl-certificate-utility/service-worker.js",
     "static/css/main.0b79f4d3.chunk.css.map": "/bearssl-certificate-utility/static/css/main.0b79f4d3.chunk.css.map"
   }
