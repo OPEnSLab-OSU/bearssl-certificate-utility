@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/bearssl-certificate-utility/static/css/main.0b79f4d3.chunk.css",
-    "main.js": "/bearssl-certificate-utility/static/js/main.fc0446f5.chunk.js",
-    "main.js.map": "/bearssl-certificate-utility/static/js/main.fc0446f5.chunk.js.map",
-    "runtime-main.js": "/bearssl-certificate-utility/static/js/runtime-main.2b80dd54.js",
-    "runtime-main.js.map": "/bearssl-certificate-utility/static/js/runtime-main.2b80dd54.js.map",
-    "static/js/2.e9c22a27.chunk.js": "/bearssl-certificate-utility/static/js/2.e9c22a27.chunk.js",
-    "static/js/2.e9c22a27.chunk.js.map": "/bearssl-certificate-utility/static/js/2.e9c22a27.chunk.js.map",
+    "main.js": "/bearssl-certificate-utility/static/js/main.e9ffb2e4.chunk.js",
+    "main.js.map": "/bearssl-certificate-utility/static/js/main.e9ffb2e4.chunk.js.map",
+    "runtime-main.js": "/bearssl-certificate-utility/static/js/runtime-main.155c2a15.js",
+    "runtime-main.js.map": "/bearssl-certificate-utility/static/js/runtime-main.155c2a15.js.map",
+    "static/js/2.c71d0b94.chunk.js": "/bearssl-certificate-utility/static/js/2.c71d0b94.chunk.js",
+    "static/js/2.c71d0b94.chunk.js.map": "/bearssl-certificate-utility/static/js/2.c71d0b94.chunk.js.map",
     "index.html": "/bearssl-certificate-utility/index.html",
-    "precache-manifest.8ab311ebde90c98a3cea5696f89a90ee.js": "/bearssl-certificate-utility/precache-manifest.8ab311ebde90c98a3cea5696f89a90ee.js",
+    "precache-manifest.fb0f3f098acb84edc8fea383d1c2503d.js": "/bearssl-certificate-utility/precache-manifest.fb0f3f098acb84edc8fea383d1c2503d.js",
     "service-worker.js": "/bearssl-certificate-utility/service-worker.js",
     "static/css/main.0b79f4d3.chunk.css.map": "/bearssl-certificate-utility/static/css/main.0b79f4d3.chunk.css.map"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.155c2a15.js",
+    "static/js/2.c71d0b94.chunk.js",
+    "static/css/main.0b79f4d3.chunk.css",
+    "static/js/main.e9ffb2e4.chunk.js"
+  ]
 }
