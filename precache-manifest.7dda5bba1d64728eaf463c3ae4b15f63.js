@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e2df7a2f25875fec2593ed6350b09df",
+    "revision": "4989f02ac89493f8a0ce4307a25387b5",
     "url": "/bearssl-certificate-utility/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bearssl-certificate-utility/static/css/main.0b79f4d3.chunk.css"
   },
   {
-    "revision": "b035655a352c5ed7f5be",
-    "url": "/bearssl-certificate-utility/static/js/2.c71d0b94.chunk.js"
+    "revision": "94fa26bea5bd9a93d77b",
+    "url": "/bearssl-certificate-utility/static/js/2.d9ee6570.chunk.js"
   },
   {
     "revision": "55b55ba5c4215be19999",

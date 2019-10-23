@@ -5,16 +5,16 @@
     "main.js.map": "/bearssl-certificate-utility/static/js/main.e9ffb2e4.chunk.js.map",
     "runtime-main.js": "/bearssl-certificate-utility/static/js/runtime-main.155c2a15.js",
     "runtime-main.js.map": "/bearssl-certificate-utility/static/js/runtime-main.155c2a15.js.map",
-    "static/js/2.c71d0b94.chunk.js": "/bearssl-certificate-utility/static/js/2.c71d0b94.chunk.js",
-    "static/js/2.c71d0b94.chunk.js.map": "/bearssl-certificate-utility/static/js/2.c71d0b94.chunk.js.map",
+    "static/js/2.d9ee6570.chunk.js": "/bearssl-certificate-utility/static/js/2.d9ee6570.chunk.js",
+    "static/js/2.d9ee6570.chunk.js.map": "/bearssl-certificate-utility/static/js/2.d9ee6570.chunk.js.map",
     "index.html": "/bearssl-certificate-utility/index.html",
-    "precache-manifest.fb0f3f098acb84edc8fea383d1c2503d.js": "/bearssl-certificate-utility/precache-manifest.fb0f3f098acb84edc8fea383d1c2503d.js",
+    "precache-manifest.7dda5bba1d64728eaf463c3ae4b15f63.js": "/bearssl-certificate-utility/precache-manifest.7dda5bba1d64728eaf463c3ae4b15f63.js",
     "service-worker.js": "/bearssl-certificate-utility/service-worker.js",
     "static/css/main.0b79f4d3.chunk.css.map": "/bearssl-certificate-utility/static/css/main.0b79f4d3.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.155c2a15.js",
-    "static/js/2.c71d0b94.chunk.js",
+    "static/js/2.d9ee6570.chunk.js",
     "static/css/main.0b79f4d3.chunk.css",
     "static/js/main.e9ffb2e4.chunk.js"
   ]
