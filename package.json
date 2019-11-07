@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/jest": "~24.0.17",
-    "@types/node": "~12.12.0",
-    "@types/react": "~16.9.0",
-    "@types/react-dom": "~16.9.0",
+    "@types/jest": "~24.0.22",
+    "@types/node": "~12.12.6",
+    "@types/react": "~16.9.11",
+    "@types/react-dom": "~16.9.4",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
     "react-scripts": "~3.2.0",
-    "typescript": "~3.5.3"
+    "typescript": "~3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,7 +37,7 @@
   },
   "homepage": "http://openslab-osu.github.io/bearssl-certificate-utility",
   "devDependencies": {
-    "gh-pages": "~2.1.0"
+    "gh-pages": "~2.1.1"
   },
   "resolutions": {
     "lodash.template": "4.5.0"
