@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44a39c01090ff939849ffa7295273bdb",
+    "revision": "b9ae3b55bf4ef4f6168e8a6c5e72ea2b",
     "url": "/bearssl-certificate-utility/index.html"
   },
   {
@@ -8,12 +8,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bearssl-certificate-utility/static/css/main.0b79f4d3.chunk.css"
   },
   {
-    "revision": "656affa48d28c439d116",
-    "url": "/bearssl-certificate-utility/static/js/2.5ba4a974.chunk.js"
+    "revision": "7ffe10836c3ea4004ed7",
+    "url": "/bearssl-certificate-utility/static/js/2.65955f3b.chunk.js"
   },
   {
-    "revision": "5356fa2f66e46e6c05e4cbe319ac7f1d",
-    "url": "/bearssl-certificate-utility/static/js/2.5ba4a974.chunk.js.LICENSE.txt"
+    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
+    "url": "/bearssl-certificate-utility/static/js/2.65955f3b.chunk.js.LICENSE.txt"
   },
   {
     "revision": "8656fb7ae251c138a89b",
