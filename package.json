@@ -37,6 +37,6 @@
   },
   "homepage": "http://openslab-osu.github.io/bearssl-certificate-utility",
   "devDependencies": {
-    "gh-pages": "~2.2.0"
+    "gh-pages": "~3.0.0"
   }
 }
